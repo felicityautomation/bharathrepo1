@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu1]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=123456]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu1]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=123456343]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu1]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=123456]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu2]]>
+    </line>
+    <line>
+      <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=welcome1]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-23T09:20:46 IST" name="Suite" finished-at="2024-11-23T09:21:36 IST" duration-ms="50429">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyTestRunner2@3b0090a4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyTestRunner@5bda8e08]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-23T09:20:46 IST" name="Test" finished-at="2024-11-23T09:21:36 IST" duration-ms="50429">
+      <class name="runners.MyTestRunner2">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.MyTestRunner2@3b0090a4]" started-at="2024-11-23T09:21:18 IST" name="setUpClass" finished-at="2024-11-23T09:21:18 IST" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1afd72ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyTestRunner2@3b0090a4]" started-at="2024-11-23T09:21:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-23T09:21:27 IST" duration-ms="9527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test valid login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature of DemoBlaze Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu1]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=123456]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyTestRunner2@3b0090a4]" started-at="2024-11-23T09:21:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-23T09:21:36 IST" duration-ms="9337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test valid login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature of DemoBlaze Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu2]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=welcome1]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.MyTestRunner2@3b0090a4]" started-at="2024-11-23T09:21:36 IST" name="tearDownClass" finished-at="2024-11-23T09:21:36 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.MyTestRunner2 -->
+      <class name="runners.MyTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.MyTestRunner@5bda8e08]" started-at="2024-11-23T09:20:46 IST" name="setUpClass" finished-at="2024-11-23T09:20:47 IST" duration-ms="656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1afd72ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyTestRunner@5bda8e08]" started-at="2024-11-23T09:20:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-23T09:20:58 IST" duration-ms="11091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test valid login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature of DemoBlaze Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu1]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=123456]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyTestRunner@5bda8e08]" started-at="2024-11-23T09:20:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-23T09:21:08 IST" duration-ms="9747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test valid invalid functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature of DemoBlaze Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginusername with data:=bharathedu1]]>
+            </line>
+            <line>
+              <![CDATA[Setting the text of the element:=By.id: loginpassword with data:=123456343]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on the element with locator:=By.xpath: //button[text()='Log in']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.MyTestRunner@5bda8e08]" started-at="2024-11-23T09:21:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-23T09:21:17 IST" duration-ms="9775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Google search functionality is working and results are displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality of the Google"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.MyTestRunner@5bda8e08]" started-at="2024-11-23T09:21:17 IST" name="tearDownClass" finished-at="2024-11-23T09:21:18 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.MyTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
